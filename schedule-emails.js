@@ -3,12 +3,11 @@ function sendEmails() {
     var subject = "Oportunidad de Empleo";
   
     // Cuerpo del correo
-    var body = "Espero que este mensaje le encuentre bien. Me llamo José Escamilla y me pongo en contacto con usted para expresar mi interés en alguna oportunidad de empleo dentro de su empresa.\n\n" +
-               "Recientemente, estudié una maestría en Ciencias de la Computación, consolidando así mis conocimientos en este campo en constante evolución. Cabe destacar que poseo una sólida formación como ingeniero mecatrónico, lo que me ha brindado una perspectiva integral y multidisciplinaria para abordar problemas desde diferentes ángulos.\n\n" +
-               "En mi búsqueda activa de oportunidades laborales, estoy particularmente interesado en unirme a su equipo para contribuir con mi experiencia y adquirir valiosa experiencia laboral.\n\n" +
-               "Adjunto a este correo, encontrará mi currículum vitae, donde detallo mi historial académico y experiencia profesional. Estoy disponible para una entrevista en cualquier momento que le resulte conveniente, y estoy dispuesto a proporcionar cualquier información adicional que pueda necesitar.\n\n" +
-               "Agradezco de antemano su tiempo y consideración, quedo a la espera de su respuesta.\n\n" +
-               "Atentamente,\nIng. José Escamilla\nTel: 4775871596";
+    var body = "Espero que este mensaje le encuentre bien. Mi nombre es José Escamilla, soy ingeniero mecatrónico de formación y he cursado una maestría en Ciencias de la Computación, aunque no la concluí por razones personales. Actualmente estoy deseoso de seguir aprendiendo y adquiriendo experiencia laboral en un entorno dinámico.\n\n" +
+               "En mi búsqueda activa de nuevas oportunidades laborales, estoy especialmente interesado en unirme a su equipo para aportar mi experiencia y seguir desarrollándome profesionalmente en un entorno desafiante.\n\n" +
+               "Adjunto a este correo encontrará mi currículum vitae, donde detallo mi historial académico y mi experiencia profesional. Estoy disponible para una entrevista en el momento que le resulte más conveniente y estaré encantado de proporcionar cualquier información adicional que considere necesaria.\n\n" +
+               "Agradezco de antemano su tiempo y atención. Quedo a la espera de su respuesta.\n\n" +
+               "Atentamente,\nIng. José Escamilla\nTel: 477XXXXXXX";
   
     var attachment = DriveApp.getFileById("1Fwd29QE5iVQLlpGCCC1VCwrkXb3Bj30M"); // Reemplaza con el ID del archivo en Google Drive, el ID del archivo es la parte entre /d/ y /view. 
   
