@@ -1,6 +1,6 @@
 ## Descripción del Proyecto
 
-Este repositorio contiene un script en [Google Apps Script](https://developers.google.com/apps-script) diseñado para enviar correos electrónicos mensuales de manera automática. El script envía un correo electrónico con un archivo adjunto desde [Google Drive](https://www.google.com/drive/) a una dirección específica en fechas predefinidas.
+Este repositorio contiene un script en [Google Apps Script](https://script.google.com/) diseñado para enviar correos electrónicos mensuales de manera automática. El script envía un correo electrónico con un archivo adjunto desde [Google Drive](https://www.google.com/drive/) a una dirección específica en fechas predefinidas.
 
 ### Funcionalidades
 
