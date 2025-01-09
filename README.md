@@ -12,7 +12,7 @@ Este repositorio contiene un script en [Google Apps Script](https://script.googl
 
 1. **Configuración Inicial**:
    - Reemplaza `recipient` con la dirección de correo electrónico del destinatario.
-   - Reemplaza el ID del archivo en `DriveApp.getFileById("ID_DEL_ARCHIVO")` con el ID del archivo que deseas adjuntar. El ID del archivo es la parte del enlace entre `/d/` y `/view`. Puedes obtener este ID al hacer clic derecho sobre el archivo en Google Drive y seleccionar "Compartir", luego copiar el enlace y extraer el ID del archivo.
+   - Reemplaza el ID del archivo en `DriveApp.getFileById("ID_DEL_ARCHIVO")` con el ID del archivo que deseas adjuntar. El ID del archivo es la parte del enlace entre `/d/` y `/view`. Puedes obtener este ID al hacer clic derecho sobre el archivo en Google Drive y seleccionar "Compartir", luego copiar el enlace y extraer el ID del archivo (En la parte de Acceso General selecciona: **Cualquier persona con el enlace** y el Rol como: **Lector**).
    - Actualiza las fechas en el arreglo `dates` según sea necesario.
 
 2. **Implementación en Google Apps Script**:
