@@ -1,6 +1,6 @@
 function sendEmails() {
     var recipient = "mbdiaz@sapal.gob.mx";
-    var subject = "Oportunidad de Empleo";
+    var subject = "Solicitud de oportunidad laboral";
   
     // Cuerpo del correo
     var body = "Espero que este mensaje le encuentre bien. Mi nombre es José Escamilla, soy ingeniero mecatrónico con formación complementaria en Ciencias de la Computación. Aunque no concluí la maestría por motivos personales, esta experiencia fortaleció mis habilidades técnicas y mi enfoque multidisciplinario.\n\n" +
