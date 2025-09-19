@@ -15,6 +15,19 @@ Este repositorio contiene un script en [Google Apps Script](https://script.googl
 
 1. **Configuración Inicial**:
    - Reemplaza `recipient` con la dirección de correo electrónico del destinatario.
+   - En el código aparece la línea:  
+     ```js
+     var recipient = "DIRECCION-DEL-DESTINATARIO";
+     ```  
+     Debes reemplazar `"DIRECCION-DEL-DESTINATARIO"` con la **dirección de correo electrónico real** del destinatario.  
+     Ejemplo:  
+     ```js
+     var recipient = "juan.perez@example.com";
+     ```  
+     > ⚠️ Si deseas enviar a varias personas, sepáralas por comas:  
+     ```js
+     var recipient = "juan.perez@example.com, maria.lopez@example.com";
+     ```
    - Reemplaza el ID del archivo en  
      ```js
      DriveApp.getFileById("ID_DEL_ARCHIVO")
@@ -22,7 +35,7 @@ Este repositorio contiene un script en [Google Apps Script](https://script.googl
      con el ID del archivo que deseas adjuntar.  
      El ID del archivo es la parte del enlace entre `/d/` y `/view`.  
      Puedes obtener este ID al hacer clic derecho sobre el archivo en Google Drive y seleccionar **Compartir**, luego copiar el enlace y extraer el ID del archivo.  
-     ⚠️ En la parte de Acceso General selecciona: **Cualquier persona con el enlace** y el Rol como: **Lector**.
+     > ⚠️ En la parte de Acceso General selecciona: **Cualquier persona con el enlace** y el Rol como: **Lector**.
 
 2. **Modificación del Día de Envío**:
    - Por defecto, el script envía el correo el **día 3 de cada mes**.  
