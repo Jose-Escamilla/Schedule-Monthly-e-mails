@@ -1,5 +1,5 @@
 function sendEmails() {
-  var recipient = "baceves@sapal.gob.mx";
+  var recipient = "DIRECCION-DEL-DESTINATARIO";
   var subject = "Solicitud de oportunidad laboral";
 
   // Cuerpo del correo
@@ -10,7 +10,7 @@ function sendEmails() {
              "Atentamente,\nIng. José Escamilla\nTel: 477 587 1596";
 
   // Archivo adjunto (CV) tomado de Google Drive, ID del archivo en Google Drive (entre /d/ y /view)
-  var attachment = DriveApp.getFileById("1UgquspJNwCJunbepBBOoIzBpu2PDZw3u");
+  var attachment = DriveApp.getFileById("ID_DEL_ARCHIVO");
 
   // Verifica si hoy es día 3 del mes
   var today = new Date();
